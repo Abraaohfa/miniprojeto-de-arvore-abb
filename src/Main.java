@@ -33,7 +33,7 @@ public class Main {
     private static final String[] NOMES_EQUIPE = {
             "43428827 João Pedro Medeiros Barbosa",
             "43665136 Adalberto Lucena de Alcantara",
-            "NOME COMPLETO DO ALUNO 3",
+            "20231078 Daniel Ferreira Nunes",
             "NOME COMPLETO DO ALUNO 4",
             "NOME COMPLETO DO ALUNO 5"
             // adicione o 6º se necessário
