@@ -31,7 +31,7 @@ public class Main {
     // Dados da equipe — EDITE com os nomes reais do grupo!
     // -----------------------------------------------------------------
     private static final String[] NOMES_EQUIPE = {
-            "NOME COMPLETO DO ALUNO 1",
+            "43428827 João Pedro Medeiros Barbosa",
             "NOME COMPLETO DO ALUNO 2",
             "NOME COMPLETO DO ALUNO 3",
             "NOME COMPLETO DO ALUNO 4",
