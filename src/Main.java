@@ -22,14 +22,14 @@ import java.util.Scanner;
  */
 public class Main {
 
-    // -----------------------------------------------------------------
+    // -
     // Constante: caminho do arquivo de dados iniciais
-    // -----------------------------------------------------------------
+    // 
     private static final String ARQUIVO_DADOS = "dados/alunos.txt";
 
-    // -----------------------------------------------------------------
+    // 
     // Dados da equipe — EDITE com os nomes reais do grupo!
-    // -----------------------------------------------------------------
+    // 
     private static final String[] NOMES_EQUIPE = {
             "43428827 João Pedro Medeiros Barbosa",
             "43665136 Adalberto Lucena de Alcantara",
@@ -40,9 +40,9 @@ public class Main {
             // adicione o 6º se necessário
     };
 
-    // -----------------------------------------------------------------
+    // 
     // main
-    // -----------------------------------------------------------------
+    // 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ABB    arvore  = new ABB();
@@ -69,7 +69,7 @@ public class Main {
 
             switch (opcao) {
 
-                // ---- 1. INSERIR ----
+                //  1. INSERIR 
                 case 1:
                     System.out.print("RGM   : ");
                     int rgmIns = lerInteiro(scanner);
@@ -83,7 +83,7 @@ public class Main {
                     }
                     break;
 
-                // ---- 2. REMOVER ----
+                //  2. REMOVER 
                 case 2:
                     System.out.print("RGM a remover: ");
                     int rgmRem = lerInteiro(scanner);
@@ -91,7 +91,7 @@ public class Main {
                     arvore.remover(rgmRem);
                     break;
 
-                // ---- 3. PESQUISAR ----
+                //  3. PESQUISAR 
                 case 3:
                     System.out.print("RGM a pesquisar: ");
                     int rgmPes = lerInteiro(scanner);
@@ -99,7 +99,7 @@ public class Main {
                     arvore.pesquisar(rgmPes);
                     break;
 
-                // ---- 4. ESVAZIAR ----
+                // 4. ESVAZIAR 
                 case 4:
                     System.out.print("Confirma esvaziamento? (S/N): ");
                     String confirm = scanner.nextLine().trim().toUpperCase();
@@ -110,7 +110,7 @@ public class Main {
                     }
                     break;
 
-                // ---- 5. EXIBIR ----
+                //  5. EXIBIR 
                 case 5:
                     exibirSubMenu();
                     System.out.print("Escolha o tipo de exibição: ");
@@ -139,7 +139,7 @@ public class Main {
                     }
                     break;
 
-                // ---- 0. SAIR ----
+                //  0. SAIR 
                 case 0:
                     System.out.println("Encerrando o programa. Até mais!");
                     break;
@@ -155,9 +155,9 @@ public class Main {
         scanner.close();
     }
 
-    // -----------------------------------------------------------------
+    // 
     // Exibe o menu principal no formato exigido pelo enunciado
-    // -----------------------------------------------------------------
+    // 
     private static void exibirMenu() {
         System.out.println("============================================");
         // Exibe todos os integrantes da equipe
@@ -178,9 +178,9 @@ public class Main {
         System.out.println("============================================");
     }
 
-    // -----------------------------------------------------------------
+    // 
     // Sub-menu de exibição
-    // -----------------------------------------------------------------
+    // 
     private static void exibirSubMenu() {
         System.out.println("  1 – PRÉ-ORDEM");
         System.out.println("  2 – IN-ORDEM");
@@ -189,13 +189,13 @@ public class Main {
         System.out.println("  5 – TODOS");
     }
 
-    // -----------------------------------------------------------------
+    // 
     // Carrega os dados do arquivo texto para a ABB
     //
     // Formato esperado de cada linha:
     //   <RGM_inteiro> <Nome do Aluno com espaços>
     //   Ex.:  20231001 Ana Paula Souza
-    // -----------------------------------------------------------------
+    // 
     private static void carregarArquivo(ABB arvore, String caminho) {
         System.out.println("Carregando dados de: " + caminho);
 
@@ -236,9 +236,9 @@ public class Main {
         }
     }
 
-    // -----------------------------------------------------------------
+    // 
     // Lê um inteiro com tratamento de entrada inválida
-    // -----------------------------------------------------------------
+    // 
     private static int lerInteiro(Scanner scanner) {
         while (!scanner.hasNextInt()) {
             System.out.println("Valor inválido. Digite um número inteiro.");
