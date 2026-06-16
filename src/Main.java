@@ -31,10 +31,10 @@ public class Main {
     // Dados da equipe — EDITE com os nomes reais do grupo!
     // -----------------------------------------------------------------
     private static final String[] NOMES_EQUIPE = {
-            "43428827 João Pedro Medeiros Barbosa",
-            "43665136 Adalberto Lucena de Alcantara",
-            "20231078 Daniel Ferreira Nunes",
-            "46026967 Ian Costa de Medeiros",
+            "43428827 João Pedro Medeiros Barbosa"
+            "43665136 Adalberto Lucena de Alcantara"
+            "20231078 Daniel Ferreira Nunes"
+            "46026967 Ian Costa de Medeiros"
             "41992725 Abraão Henrique Franco de Araújo",
             "44132824 João Gabriel Lacerda de Oliveira",
             "42977541 Vitor Jales Ramos Diniz"
