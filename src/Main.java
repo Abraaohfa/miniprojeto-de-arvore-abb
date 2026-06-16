@@ -34,8 +34,8 @@ public class Main {
             "43428827 João Pedro Medeiros Barbosa",
             "43665136 Adalberto Lucena de Alcantara",
             "20231078 Daniel Ferreira Nunes",
-            "NOME COMPLETO DO ALUNO 4",
-            "NOME COMPLETO DO ALUNO 5"
+            "46026967 Ian Costa de Medeiros",
+            ""
             // adicione o 6º se necessário
     };
 
